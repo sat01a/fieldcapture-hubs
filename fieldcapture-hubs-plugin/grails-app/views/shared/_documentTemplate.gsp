@@ -37,10 +37,10 @@
 <script id="docMediaBody" type="text/html">
 <div class="media-body">
     <a data-bind="attr:{href:url}">
-        <h5 class="media-heading" data-bind="text:name"></h5>
+        <small class="media-heading" data-bind="text:name"></small>
     </a>
     <span data-bind="if:$data.attribution">
-        <span data-bind="text:attribution"></span>
+        <small><span data-bind="text:attribution"></span></small>
     </span>
 </div>
 </script>
@@ -48,10 +48,10 @@
 <script id="imgMediaBody" type="text/html">
 <div class="media-body">
     <a data-bind="attr:{href:url}" target="_blank">
-        <h5 class="media-heading" data-bind="text:name"></h5>
+        <small class="media-heading" data-bind="text:name"></small>
     </a>
     <span data-bind="if:$data.attribution">
-        <span data-bind="text:attribution"></span>
+        <small><span data-bind="text:attribution"></span></small>
     </span>
 </div>
 </script>

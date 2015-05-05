@@ -268,4 +268,10 @@ modules = {
         resource url: 'js/prettytextdiff/pretty_text_diff_basic.css', plugin: 'fieldcapture-plugin'
     }
 
+    magnific_poppup{
+        dependsOn 'jquery'
+        resource url: 'js/magnific-popup/magnific-popup.css', plugin: 'fieldcapture-plugin'
+        resource url: 'js/magnific-popup/jquery.magnific-popup.min.js', plugin: 'fieldcapture-plugin'
+    }
+
 }
