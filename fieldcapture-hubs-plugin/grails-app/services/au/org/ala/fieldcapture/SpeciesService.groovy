@@ -25,7 +25,7 @@ class SpeciesService {
      */
     def searchByScientificName(scientificName, listId = null) {
         def results = searchForSpecies(scientificName, 10, listId)
-        return results.autoCompleteList?.find {it.name.equalsIgnoreCase(scientificName)}
+        return results?.autoCompleteList?.find {it.name.equalsIgnoreCase(scientificName)}
     }
 
     /**
